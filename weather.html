@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Simple Weather App</title>
+  <link rel="stylesheet" href="weather.css" />
+</head>
+<body>
+
+  <section class="top-banner">
+    <div class="unit-toggle">
+    <label>
+      <input type="radio" name="units" value="metric" checked /> Celsius (°C)
+    </label>
+    <label>
+      <input type="radio" name="units" value="imperial" /> Fahrenheit (°F)
+    </label>
+    </div>
+
+    <div class="container">
+      <h1 class="heading">Simple Weather App</h1>
+      <p class="sub-heading">Get the current weather of any city</p>
+      <form autocomplete="off" class="form">
+        <input type="text" placeholder="Search for a city" autofocus />
+        <button type="submit">SUBMIT</button>
+        <span class="msg"></span>
+        <ul class="suggestions"></ul>
+      </form>
+    </div>
+  </section>
+
+  <section class="ajax-section">
+    <div class="container">
+      <ul class="cities"></ul>
+      <button id="clear-btn">Clear All Cities</button>
+    </div>
+  </section>
+
+  <script src="weather.js" defer></script>
+</body>
+</html>
