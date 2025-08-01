@@ -3,6 +3,7 @@
 Tempest is a snappy, modern weather app that delivers instant, accurate forecasts for any city worldwide. With live autocomplete suggestions, unit toggling (°C/°F), and a clean UI, Tempest helps you stay ahead of the weather—anytime, anywhere.
 
 **Features**
+
 Smart Search — Autocomplete powered by OpenWeatherMap Geocoding API
 
 Live Weather — Current temperature, description, and icons
