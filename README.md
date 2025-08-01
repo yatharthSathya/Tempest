@@ -50,4 +50,10 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
   - Keyboard Navigation: Improve accessibility by supporting full keyboard control.
 
 
+## Credits
+
+This project is based on the tutorial:  
+[Build a Simple Weather App With Vanilla JavaScript](https://webdesign.tutsplus.com/build-a-simple-weather-app-with-vanilla-javascript--cms-33893t) by Tania Rascia, published on TutsPlus. However, I modified and extended the original tutorial for learning purposes.
+
+
 
