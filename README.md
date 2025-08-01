@@ -35,10 +35,12 @@ UX & Data:
   - Geolocation Support: Auto-detect user's location on load and show local weather instantly.
   - Search History: Save recent or frequently searched cities.
   - Persistent City List: Use localStorage or IndexedDB so cities aren’t lost on refresh.
+    
 Forecasting:
   - 5-Day / Hourly Forecast: Add extended forecast charts using OpenWeatherMap's forecast endpoints.
   - Severe Weather Alerts: Display real-time alerts when available via the API.
   - Air Quality Index (AQI): Show air pollution data for selected cities.
+    
 Interface & Accessibility:
   - Dark Mode Toggle: Respect system preferences or add a manual toggle.
   - Animations: Weather-related animations (e.g. rain effect, sun fade-in).
