@@ -1,0 +1,174 @@
+/* Simple reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #003049;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+.top-banner {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 2rem;
+}
+
+.container {
+  width: 100%;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 2.4rem;
+  margin-bottom: 0.3rem;
+}
+
+.sub-heading {
+  font-weight: 500;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #f4f4f4cc;
+}
+
+form {
+  display: flex;
+  width: 100%;
+}
+
+input {
+  flex-grow: 1;
+  border-radius: 0.3rem 0 0 0.3rem;
+  border: none;
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+}
+
+button {
+  padding: 0.8rem 1.2rem;
+  border-radius: 0 0.3rem 0.3rem 0;
+  border: none;
+  background: #d62828;
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background: #a22121;
+}
+
+.msg {
+  display: block;
+  margin-top: 0.5rem;
+  color: #f15b5b;
+  font-weight: 600;
+}
+
+.ajax-section {
+  width: 100%;
+  max-width: 600px;
+}
+
+.cities {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+  gap: 1rem;
+}
+
+.city {
+  background: #0a1128;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.city-name {
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.city-temp {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 0.7rem;
+}
+
+.city-icon {
+  width: 80px;
+  height: 80px;
+}
+
+figcaption {
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-top: 0.5rem;
+  color: #f4f4f4cc;
+}
+
+.city {
+  background: #0a1128;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  text-align: center;
+  transition: opacity 0.4s ease-in-out;
+  opacity: 1; /* Default fully visible */
+}
+
+/* Style the loading message */
+.msg {
+  display: block;
+  margin-top: 0.5rem;
+  font-weight: 600;
+  color: #f4f4f4cc;
+  font-style: italic;
+}
+
+
+form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.suggestions {
+  list-style: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: white;
+  color: black;
+  max-height: 150px;
+  overflow-y: auto;
+  border-radius: 0 0 0.3rem 0.3rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  z-index: 10;
+  margin-top: 2px;
+  padding: 0;
+}
+
+.suggestions li {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.suggestions li:hover {
+  background: #003049;
+  color: white;
+}
